@@ -1,5 +1,7 @@
 # LangGraph 핸즈온 튜토리얼
 
+LangGraph를 활용한 에이전트 핸즈온 튜토리얼 입니다.
+
 **참고하면 좋은 자료**
 
 - [LangChain 한국어 튜토리얼🇰🇷](https://wikidocs.net/book/14314)
@@ -8,18 +10,29 @@
 - [테디노트 블로그](https://teddylee777.github.io/)
 - [테디노트 YouTube 로 RAG 배우기!](https://teddylee777.notion.site/YouTube-RAG-10a24f35d12980dc8478c750faa752a2?pvs=74)
 - [RAG 비법노트](https://fastcampus.co.kr/data_online_teddy)
-LangGraph를 활용한 에이전트 핸즈온 튜토리얼 입니다.
+
 
 ## 소개
-이 프로젝트는 LangGraph를 사용하여 AI 에이전트를 구축하고 실행하는 방법을 보여주는 예제와 가이드를 제공합니다. LangGraph는 LangChain 기반의 그래프 기반 프레임워크로, 복잡한 AI 에이전트 워크플로우를 구성하는 데 도움이 됩니다.
+이 프로젝트는 LangGraph를 사용하여 AI 에이전트를 구축하고 실행하는 방법을 보여주는 예제와 가이드를 제공합니다. 
 
-## 설치 방법
+LangGraph는 LangChain 기반의 그래프 기반 프레임워크로, 복잡한 AI 에이전트 워크플로우를 구성하는 데 도움이 됩니다.
+
+## 설치 방법(Local)
 
 ```bash
 git clone https://github.com/yourusername/langgraph-agent-handson.git
 cd langgraph-agent-handson
 pip install -r requirements.txt
 ```
+
+- [일반 튜토리얼 버전](00-langgraph.ipynb)
+- [음성 튜토리얼 버전](00-langgraph-(VoiceTutorial).ipynb)
+
+## Google Colab
+
+- [일반 튜토리얼 버전](https://colab.research.google.com/drive/1ERAveGAEvs8tR2KykSpddslUtOUx4CnF?usp=sharing)
+
+- [음성 튜토리얼 버전](https://colab.research.google.com/drive/1U-cO5Swv2Ae0c10khpuul1J7ARqCJ7Ty?usp=sharing)
 
 ## 환경 설정
 
