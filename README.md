@@ -23,6 +23,14 @@ pip install -r requirements.txt
 
 ## 환경 설정
 
+**OpenAI API Key 설정**
+- https://wikidocs.net/233342
+
+**웹 검색을 위한 API 키 발급 주소**
+- https://app.tavily.com/
+
+회원 가입 후 API Key를 발급합니다.
+
 프로젝트 루트에 .env_sample 파일을 복사하여 .env 파일을 생성하고 다음과 같이 필요한 환경 변수를 설정하세요.
 
 ```bash
