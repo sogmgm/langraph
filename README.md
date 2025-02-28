@@ -52,16 +52,29 @@ export LANGSMITH_API_URL="https://api.smith.langchain.com"
 
 ## 사용 방법
 
-`00-langgraph.ipynb`와 같은 노트북 파일을 열어 실습을 시작하세요.
+`00-langgraph.ipynb` 노트북 파일을 열어 실습을 시작하세요.
 
-## 예제
+## 목차
 
 이 저장소에는 다음과 같은 예제가 포함되어 있습니다.
 
-1. 기본 LangGraph 소개
-2. 에이전트 구성하기
-3. 메모리 관리
-4. 복잡한 워크플로우 구현하기
+- **Part 0. 환경 설정**
+- **Part 1. 기본 ReAct Agent 구현**
+  - 도구 (Tools) 설정
+  - 그래프 실행
+- **Part 2. 멀티턴 대화를 위한 단기 메모리: checkpointer**
+  - MemorySaver
+- **Part 3. LangGraph 워크플로우 구현**
+  - State 정의
+  - 노드(Node) 정의
+  - 그래프 생성
+- **Part 4. Routing**
+  - 그래프 생성
+- **Part 5. Fan-out / Fan-in**
+  - 일부만 Fan-out 하는 방법
+- **Part 6. 대화 기록 요약을 추가하는 방법**
+- **Part 7. Human in the Loop**
+- **Part 8. Long-Term Memory**
 
 ## 의존성
 
@@ -74,12 +87,10 @@ export LANGSMITH_API_URL="https://api.smith.langchain.com"
 
 ## 라이선스
 
-이 프로젝트는 MIT 라이선스 하에 제공됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
 ```
 MIT License
 
-Copyright (c) 2023 Your Name
+Copyright (c) 2025 테디노트
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
