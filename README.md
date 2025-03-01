@@ -20,8 +20,8 @@ LangGraph는 LangChain 기반의 그래프 기반 프레임워크로, 복잡한 
 ## 설치 방법(Local)
 
 ```bash
-git clone https://github.com/yourusername/langgraph-agent-handson.git
-cd langgraph-agent-handson
+git clone https://github.com/teddylee777/langcon-2025-handson.git
+cd langcon-2025-handson
 pip install -r requirements.txt
 ```
 
