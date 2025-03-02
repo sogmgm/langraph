@@ -19,7 +19,7 @@ LangGraph를 활용한 에이전트 핸즈온 튜토리얼 입니다.
 
 ```bash
 git clone https://github.com/teddylee777/LangGraph-HandsOn.git
-cd langcon-2025-handson
+cd LangGraph-HandsOn
 pip install -r requirements.txt
 ```
 
